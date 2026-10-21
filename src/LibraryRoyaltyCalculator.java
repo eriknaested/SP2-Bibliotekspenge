@@ -13,9 +13,11 @@ public class LibraryRoyaltyCalculator {
 
         Author author2 = new Author("Bente Bent");
 
-        author2.addTitle(new EBook("Grundlæggende programmering", "FAG", 97, 50, 205, 3600, false));
+        author2.addTitle(new EBook("Grundlæggende programmering", "FAG", 97, 50, 205, 360000, false));
+        author2.addTitle(new EAudioBook("ASMR 101", "SKØN", 90, 90, 503, 1200));
 
         System.out.println(author2.getName() + " royalties: " + author2.calculateRoyalties() + " kr.");
+
 
 
     }
