@@ -1,1 +1,3 @@
-# SP2-Bibliotekspenge
+Erik Næsted
+
+erna1000@stud.ek.dk
