@@ -9,7 +9,7 @@ public class EAudioBook extends NetTitle implements IAudioBook{
 
     @Override
     protected double calculatePoints() {
-        return (durationInMinutes / 2) * convertLiteratureType() * getPseudoCopies() + getUse();
+        return (durationInMinutes / 2) * convertLiteratureType() * getPseudoCopies();
     }
 
     @Override

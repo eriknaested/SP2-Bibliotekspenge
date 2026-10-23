@@ -18,6 +18,6 @@ public class EBook extends NetTitle{
 
     @Override
     protected double calculatePoints() {
-        return calculatePages() * convertLiteratureType() * getPseudoCopies() + getUse();
+        return calculatePages() * convertLiteratureType() * getPseudoCopies();
     }
 }
